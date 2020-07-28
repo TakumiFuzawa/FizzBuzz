@@ -10,3 +10,11 @@ def fizzbuzz(num)
 		num.to_s
 	end
 end
+
+puts "Please enter a number of 1 or more"
+
+input = gets.to_i
+
+puts "Result is ..."
+
+puts fizzbuzz(input)
